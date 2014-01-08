@@ -1,6 +1,7 @@
 Pin::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" #creats about_path
+  get "myclass" => "pages#myclass" #creates AlphaNu_path
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

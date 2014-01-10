@@ -1,4 +1,5 @@
 Pin::Application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "about" => "pages#about" #creats about_path
   get "myclass" => "pages#myclass" #creates AlphaNu_path
